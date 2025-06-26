@@ -1,0 +1,27 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/kittipon/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/kittipon/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "docwriter.style": "Auto-detect",
+    "docwriter.progress.trackTypes": false,
+    "docwriter.progress.trackFunctions": true,
+    "docwriter.progress.trackClasses": false,
+    "docwriter.language": "English",
+    "docwriter.hotkey.mac": "⌘ + .",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./build",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
