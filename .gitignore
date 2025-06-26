@@ -1,3 +1,8 @@
-/build
-/install
-/log
+build/
+install/
+log/
+devel/
+*.pyc
+__pycache__/
+.vscode/
+.idea/
